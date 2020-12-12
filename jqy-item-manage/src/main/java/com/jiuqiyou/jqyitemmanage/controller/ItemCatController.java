@@ -25,5 +25,6 @@ public class ItemCatController {
 
     public static void main(String[] args) {
         System.out.println("zhangfenglianwoxihuanni");
+        int i = 1;
     }
 }
