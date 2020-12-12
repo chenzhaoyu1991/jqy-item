@@ -22,4 +22,8 @@ public class ItemCatController {
     public List<EasyUITree> findItemCatList(@RequestParam(defaultValue = "0",name = "id")Long parentId){
       return itemCatService.findItemCatList(parentId);
     }
+
+    public static void main(String[] args) {
+        System.out.println("zhangfenglianwoxihuanni");
+    }
 }
