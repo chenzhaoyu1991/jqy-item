@@ -43,6 +43,10 @@ public class ItemController {
         return SysResult.success();
     }
 
+    public static void main(String[] args) {
+        System.out.println("你是哪个掉毛");
+    }
+
 
 
 }
