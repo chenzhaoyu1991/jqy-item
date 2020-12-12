@@ -7,8 +7,8 @@ public class Recursion {
         return f(n-1) + f(n-2);
     }
     public static void main(String[] args) {
-        int nums = f(7);
-        System.out.println(nums);
+        int n = f(7);
+        System.out.println(n);
 
     }
 }
